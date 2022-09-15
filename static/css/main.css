@@ -1,0 +1,131 @@
+body {
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(-45deg,  rgb(255,255,255) 0%, rgb(237,237,237) 100%);
+    background: -webkit-linear-gradient(-45deg,  rgb(255,255,255) 0%,rgb(237,237,237) 100%);
+    background: linear-gradient(135deg,  rgb(255,255,255) 0%,rgb(237,237,237) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=1 );
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 15px;
+    letter-spacing: -0.6px;
+    word-spacing: -0.6px;
+    color:white;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+h1 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 30px;
+    letter-spacing: -0.6px;
+    word-spacing: -0.6px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    }
+h4 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 15px;
+    letter-spacing: -0.6px;
+    word-spacing: -0.6px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+label{
+
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 15px;
+    letter-spacing: -0.6px;
+    word-spacing: -0.6px;
+    color:rgb(0, 0, 0);
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;    
+}
+
+p{
+
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 15px;
+    letter-spacing: -0.6px;
+    word-spacing: -0.6px;
+    color:rgb(0, 0, 0);
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;    
+    display: flex;
+    align-items: center;
+}
+
+input{
+
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 15px;
+    letter-spacing: -0.6px;
+    word-spacing: -0.6px;
+    color:rgb(0, 0, 0);
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;    
+}
+
+.step1 {
+    .label{
+        position: relative;
+        display:flex;
+        margin:0 0 5rem;
+        height:3rem;
+        display:flex;
+        top:40px;
+        left:10px;}
+}
+.step2 {
+    .label{
+    position: relative;
+    display: flex;
+    margin: 0 0 10rem;
+    height: 5rem;
+    display: flex;
+    }
+
+}

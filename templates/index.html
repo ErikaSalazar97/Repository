@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>EasyPIT</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel=StyleSheet href="static/css/main.css" type="text/css" media=screen>
+</head>
+
+<body>
+  <!--Navbar: Panel superior de Navegacion -->
+  <nav class="menu">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about"">About Us</a></li>
+      <li><a href="/help">Help</a></li>
+    </ul>
+  </nav>
+
+  <center> <h1>EasyPIT</h1>  </center>
+  <center> <h4>Pile Integrity Test Signal Processing</h4> </center>
+  <div class="step1">
+    <label for="datos" class="form-label"> Step 1. Upload Files</label>
+    <p><input class="form-control" type="file" id="formFileMultiple" multiple />
+  </div>
+  <p>
+  <div class="step2">
+    <label for="datos" class="form-label"> Step 2. Initial Setup</label>
+    <form action="Initial Setup" method="get">
+      <p>Company's Name: <input type="text" name="Company's Name" size="10"></p>
+      <p>Project's Name: <input type="text" name="Project's Name" size="10"></p>
+      <p>Pile's Name: <input type="text" name="Pile's Name" size="10"></p>
+      <p>Comentary: <input type="text" name="Comentary" size="10"></p>
+    </form>
+
+    <label for="Date">Date:</label>
+    <input type="date" id="start" name="trip-start" value="2022-04-01" min="1900-01-01" max="2100-12-31">
+    <br>
+  </div>
+
+</body>
+
+</html>
